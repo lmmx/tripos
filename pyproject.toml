@@ -1,0 +1,20 @@
+[project]
+name = "tripos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "setuptools>=78.1.0",
+    "torch==2.5.0",
+    "torchvision",
+    "torch-cluster>=1.6.3",
+]
+
+[tool.uv]
+find-links = ["https://data.pyg.org/whl/torch-2.5.0+cu124.html"]
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
