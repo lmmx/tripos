@@ -32,6 +32,10 @@ This will produce a file `output.glb` which can be imported into Blender etc.
 
 To run just the Gradio app (i.e. the HuggingFace Space):
 
+- Note that the space contains a texture .so
+  [here](https://github.com/lmmx/tripos/blob/master/src/space/texture.cpython-310-x86_64-linux-gnu.so)
+  which means you should have git LFS installed
+
 ```bash
 uv venv --python 3.11 # make a python 3.12 virtual environment
 source .venv/bin/activate # activate the venv
