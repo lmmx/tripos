@@ -11,3 +11,7 @@ wheels/
 
 pretrained_weights/
 *.glb
+
+/src/space/checkpoints/
+/src/space/mv_adapter/
+/src/space/triposg/
