@@ -1,0 +1,22 @@
+torchvision
+diffusers
+einops
+huggingface_hub
+opencv-python
+omegaconf
+scikit-image
+numpy
+peft
+scipy==1.11.4
+jaxtyping
+typeguard
+pymeshlab
+open3d
+timm
+kornia
+ninja
+diffrp-nvdiffrast
+# https://huggingface.co/spaces/JeffreyXiang/TRELLIS/resolve/main/wheels/nvdiffrast-0.3.3-cp310-cp310-linux_x86_64.whl?download=true
+cvcuda_cu12
+gltflib
+torch-cluster
